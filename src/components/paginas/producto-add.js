@@ -33,7 +33,7 @@ const ProductoAdd = () => {
     });
     return (
         <>
-            <h1 className="text-3xl font-light mb-4" > Añadir producto </h1>
+            <h1 className="text-3xl font-light mb-4" > Añadir productos </h1>
 
             <div className="flex justify-center mt-10  " >
                 <div className="w-full max-w-3xl">
