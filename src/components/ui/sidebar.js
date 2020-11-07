@@ -16,11 +16,11 @@ const Sidebar = () => {
                 <nav className="mt-10" >
                     <NavLink className="
                     p-1 text-gray-400 block hover:bg-yellow-500 
-                     hover:text-gray-900"  activeClassName="text-yellow-500" exact to="/" >Ordenes
+                     hover:text-gray-900"  activeClassName="text-yellow-500" exact="true" to="/" >Ordenes
                     </NavLink>
 
                     <NavLink className="p-1 text-gray-400 block hover:bg-yellow-500 
-                     hover:text-gray-900"  activeClassName="text-yellow-500" exact to="/menu" >Menú </NavLink>
+                     hover:text-gray-900"  activeClassName="text-yellow-500" exact="true" to="/menu" >Menú </NavLink>
                 </nav>
             </div>
         </div>

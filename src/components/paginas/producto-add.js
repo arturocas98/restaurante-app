@@ -1,8 +1,13 @@
 import { FastField, useFormik, yupToFormErrors } from 'formik';
-import React from 'react';
+import React,{useContext} from 'react';
 import * as Yup from 'yup';
+import {FirebaseContext} from '../../firebase';
 
 const ProductoAdd = () => {
+    // context con las operaciones de firebase
+    const { firebase } = useContext(FirebaseContext);
+    console.log(firebase);
+
     // validación y leer datos del formulario
     const form = useFormik({
         initialValues: {
